@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <title>New Calculator app </title>
+       <link rel = "stylesheet" href = "modeling.css"></link>
+   </head>
+   <body> 
+        <div>
+            <form name = "Calculator">
+                <div id = 'screen' class = "screen"></div>
+                <div id = 'result' class = "result"></div>
+
+                <div>
+                    <input type = "button" value = "C" class = "clear" onclick = "myCalculator.clear()"></input>
+                    <input type = "button" value = "[x]" class = "delete" onclick = "myCalculator.remove()"></input>
+                    <input type = "button" value = "^" class = "power"  onclick = "myCalculator.press('^')"></input>
+                    <input type = "button" value = "/" class = "divide" onclick = "myCalculator.press('/')"> </input> 
+                </div>
+      
+                <div>
+                    <input type = "button" value = "7" id = 'seven7' class = "seven" onclick = "audioPl(), myCalculator.press(7)"></input>
+                    <input type = "button" value = "8" class = "eight"  onclick = "audioPla(), myCalculator.press(8)"></input>
+                    <input type = "button" value = "9" class = "nine"  onclick = "audioPlay(), myCalculator.press(9)"></input>
+                    <input type = "button" value = "*" class = "multiply" onclick = "myCalculator.press('*')"></input>
+                </div>
+
+                <div>
+                    <input type = "button" value = "4" class = "four"  onclick = "pAudio(), myCalculator.press(4)"></input>
+                    <input type = "button" value = "5" class = "five"  onclick = "audio(), myCalculator.press(5)"></input>
+                    <input type = "button" value = "6" class = "six"  onclick = "audioP(), myCalculator.press(6)"></input>
+                    <input type = "button" value = "-" class = "subtract"  onclick = "myCalculator.press('-')"></input>
+                </div>
+
+                <div>
+                    <input type = "button" value = "1" class = "one"  onclick = "playAudio(), myCalculator.press(1)"></input>
+                    <input type = "button" value = "2" class = "two"  onclick = "plaAudio(), myCalculator.press(2)"></input>
+                    <input type = "button" value = "3" class = "three"  onclick = "plAudio(), myCalculator.press(3)"></input>
+                    <input type = "button" value = "+" class = "add"  onclick = "myCalculator.press('+')"></input>
+                </div>
+                                             
+                <div>
+                    <input type = "button" value = "0" class = "zero"  onclick = "myCalculator.press(0)"></input>
+                    <input type = "button" class = "dot" value = '.'  onclick = "myCalculator.press('.')"></input>
+                    <input type = "button" value = "=" class = "equal" onclick = "myCalculator.compute()"></input>
+                </div>
+                
+               <audio id ="myAudio">
+                <source src ="C:\Users\kindn\Downloads\8d82b5_The_Number_1_Sound_Effect.mp3" type="audio/mpeg">
+               </audio>
+               <audio id ="myAudio2">
+                <source src ="C:\Users\kindn\Downloads\8d82b5_The_Number_2_Sound_Effect.mp3" type="audio/mpeg">
+               </audio>
+               <audio id ="myAudio3">
+                <source src ="C:\Users\kindn\Downloads\8d82b5_The_Number_3_Sound_Effect.mp3" type="audio/mpeg">
+               </audio>
+               <audio id ="myAudio4">
+                <source src ="C:\Users\kindn\Downloads\8d82b5_The_Number_4_Sound_Effect.mp3" type="audio/mpeg">
+               </audio>
+               <audio id ="myAudio5">
+                <source src ="C:\Users\kindn\Downloads\8d82b5_The_Number_5_Sound_Effect.mp3" type="audio/mpeg">
+               </audio>
+               <audio id ="myAudio6">
+                <source src ="C:\Users\kindn\Downloads\8d82b5_The_Number_6_Sound_Effect.mp3" type="audio/mpeg">
+               </audio>
+               <audio id ="myAudio7">
+                <source src ="C:\Users\kindn\Downloads\8d82b5_The_Number_7_Sound_Effect.mp3" type="audio/mpeg">
+               </audio>
+               <audio id ="myAudio8">
+                <source src ="C:\Users\kindn\Downloads\8d82b5_The_Number_8_Sound_Effect.mp3" type="audio/mpeg">
+               </audio>
+               <audio id ="myAudio9">
+                <source src ="C:\Users\kindn\Downloads\8d82b5_The_Number_9_Sound_Effect.mp3" type="audio/mpeg">
+               </audio>
+            </form>
+            <script src = "command.js"></script>
+        </div>
+   </body>
+</html>

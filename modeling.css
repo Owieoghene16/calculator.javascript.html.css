@@ -1,0 +1,159 @@
+.screen{
+    width: 17.25%;
+    height: 45.4px;
+    font-size: 32px;
+    text-align: right;
+    color:black;
+    background-color:white;
+    border-top-style:ridge;
+    border-left: ridge;
+    border-right: ridge;
+}
+
+
+.result{
+    width: 17.25%;
+    height: 27.4px;
+    font-size: 22px;
+    text-align: right;
+    font-size: 20px;
+    color:black;
+    background-color:white;
+    border-bottom-style: ridge;
+    border-left: ridge;
+    border-right: ridge;
+}
+
+
+.clear{
+    width: 4.2%;
+    height: 55px;
+    color: black;
+    background-color: wheat;
+}
+
+.delete{
+    width: 4.2%;
+    height: 55px;
+    color: black;
+    background-color: wheat;
+}
+
+.divide{
+    width: 4.2%;
+    height: 55px;
+    color: black;
+    background-color: rgb(139, 86, 139);
+}
+
+.seven{
+    width: 4.2%;
+    height: 55px;
+    color: white;
+    background-color: grey;
+}
+
+.eight{
+    width: 4.2%;
+    height: 55px;
+    color: white;
+    background-color: grey;
+}
+
+.nine{
+    width: 4.2%;
+    height: 55px;
+    color: white;
+    background-color: grey;
+}
+
+.multiply{
+    width: 4.2%;
+    height: 55px;
+    color: black;
+    background-color: rgb(139, 86, 139);
+}
+
+.four{
+    width: 4.2%;
+    height: 55px;
+    color: white;
+    background-color: grey;
+}
+
+.five{
+    width: 4.2%;
+    height: 55px;
+    color: white;
+    background-color: grey;
+}
+
+.six{
+    width: 4.2%;
+    height: 55px;
+    color: white;
+    background-color: grey;
+}
+
+.subtract{
+    width: 4.2%;
+    height: 55px;
+    color: black;
+    background-color: rgb(139, 86, 139);
+}
+
+.one{
+    width: 4.2%;
+    height: 55px;
+    color: white;
+    background-color: grey;
+}
+
+.two{
+    width: 4.2%;
+    height: 55px;
+    color: white;
+    background-color: grey;
+}
+
+.three{
+    width: 4.2%;
+    height: 55px;
+    color: white;
+    background-color: grey;
+}
+
+.add{
+    width: 4.2%;
+    height: 55px;
+    color: black;
+    background-color: rgb(139, 86, 139);
+}
+
+.zero{
+    width: 4.2%;
+    height: 55px;
+    color: white;
+    background-color:orangered;
+}
+
+.dot{
+    width: 4.2%;
+    height: 55px;
+    color: white;
+    background-color: orangered;
+}
+
+.power{
+    width: 4.2%;
+    height: 55px;
+    color: black;
+    background-color: wheat;
+}
+
+.equal{
+    width: 8.7%;
+    height: 55px;
+    color: white;
+    background-color: rgb(101, 128, 67);
+}
